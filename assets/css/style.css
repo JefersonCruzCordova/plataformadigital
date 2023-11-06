@@ -592,6 +592,14 @@ section {
   }
 }
 
+.square-image {
+  width: 650px; /* Mismo ancho y altura para un cuadrado */
+  height: 450px; /* Mismo ancho y altura para un cuadrado */
+  object-fit: cover;
+  border-radius: 0; /* Elimina el borde redondeado para un cuadrado */
+  margin-right: 50px; /* Ajusta el margen derecho según tus necesidades */
+}
+
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
